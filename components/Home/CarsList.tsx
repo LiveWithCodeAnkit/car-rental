@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react'
 import CarCard from './CarCard'
 import CarCardSkelton from './CarCardSkelton'

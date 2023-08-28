@@ -1,5 +1,6 @@
-import { ClerkProvider,SignIn } from '@clerk/nextjs'
+
 import './globals.css'
+import { ClerkProvider,SignIn } from '@clerk/nextjs'
 import type { Metadata } from 'next'
 import { Outfit } from 'next/font/google'
 import { SignedIn } from '@clerk/nextjs/app-beta'
@@ -19,9 +20,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider>
+  
     <html lang="en">
       <body className={inter.className}>
+      <ClerkProvider>
         <SignedIn>
           <NavBar/>
          {children}
@@ -29,9 +31,9 @@ export default function RootLayout({
         <SignedOut>
           <SignIn/>
         </SignedOut>
-        
+      </ClerkProvider>
         </body>
     </html>
-    </ClerkProvider>
+  
   )
 }

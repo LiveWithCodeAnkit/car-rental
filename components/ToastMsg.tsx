@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
-function ToastMsg({msg}:any) {
+function ToastMsg({ msg }: any) {
   return (
-    <div>
-    <div className="toast toast-top toast-end">
-    <div className="alert alert-success">
-        <span>{msg}</span>
-    </div>
-    </div>
-    </div>
-  )
+    <>
+      <div className="toast toast-top toast-end">
+        <div className="alert alert-success">
+          <span>{msg}</span>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default ToastMsg
+export default ToastMsg;
