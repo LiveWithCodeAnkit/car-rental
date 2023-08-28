@@ -1,16 +1,16 @@
 # CarRental: Convenient Car Rental Web App
 
-CarRentX is a modern and user-friendly car rental web application built using Next.js, TypeScript, Hygraph, Clerk for Authentication and User Management, and enhanced with Tailwind CSS and DaisyUI for a sleek and responsive user interface. With CarRentX, users can easily search for cars, filter them based on price and company name, view car images, and check the price per kilometer. The app also offers a seamless booking experience by allowing users to specify pickup and drop-off locations.
+CarRental is a modern and user-friendly car rental web application built using Next.js, TypeScript, Hygraph, Clerk for Authentication and User Management, and enhanced with Tailwind CSS and DaisyUI for a sleek and responsive user interface. With CarRental, users can easily search for cars, filter them based on price and company name, view car images, and check the price per kilometer. The app also offers a seamless booking experience by allowing users to specify pickup and drop-off locations.
 
 ## Features
 
-- **User Authentication and Management**: Powered by Clerk, CarRentX ensures secure user authentication and hassle-free user management, allowing users to create accounts, log in, and manage their profiles effortlessly.
+- **User Authentication and Management**: Powered by Clerk, CarRental ensures secure user authentication and hassle-free user management, allowing users to create accounts, log in, and manage their profiles effortlessly.
 
 - **Interactive Car Search**: Users can conveniently search for available cars using filters for price range and company name, making it easier to find the perfect vehicle for their needs.
 
 - **Detailed Car Information**: Each car listing provides images and essential details, enabling users to make informed decisions before proceeding with a booking.
 
-- **Transparent Pricing**: CarRentX displays the price per kilometer for each vehicle, ensuring users have a clear understanding of the cost structure.
+- **Transparent Pricing**: CarRental displays the price per kilometer for each vehicle, ensuring users have a clear understanding of the cost structure.
 
 - **Effortless Booking Process**: Users can book their chosen car by providing pickup and drop-off locations, streamlining the booking process.
 
@@ -22,8 +22,8 @@ CarRentX is a modern and user-friendly car rental web application built using Ne
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/yourusername/CarRentX.git`
-2. Navigate to the project directory: `cd CarRentX`
+1. Clone the repository: `git clone https://github.com/yourusername/CarRental.git`
+2. Navigate to the project directory: `cd CarRental`
 3. Install dependencies: `npm install`
 4. Set up environment variables: Rename `.env.example` to `.env.local` and fill in the required values.
 5. Run the development server: `npm run dev`
